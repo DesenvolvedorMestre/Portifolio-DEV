@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --main-color-red: #E3646E;
+  --main-color-purple: #BB72E9;
+  --main-color-blue: #3996DB;
+  --main-color-green: #82BC4F;
+  --main-color-yellow:#EABD5F;
+  --base-color-gray-100: #0D0E11;
+  --base-color-gray-200: #16181D;
+  --base-color-gray-300: #292C34;
+  --base-color-gray-400: #878EA1;
+  --base-color-gray-500: #C0C4CE;
+  --base-color-gray-600: #E2E4E9;
+  --font-family: 'Asap',sans-serif;
+  --h1: 800 56px/120% var(--font-family);
+  --h2: 800 24px/120% var(--font-family);
+  --h3: 800 16px/120%% var(--font-family);
+}
+
+.bg-image {
+  background-image: url('../assets/background/Background_Intro.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--base-color-gray-100);
+  color: white;
+}
+.bg-color-gray-200 {
+  background-color: var(--base-color-gray-200);
+  color: var(--base-color-gray-600);
+  padding: 6rem 2rem;
+  min-height: 80vh;
+}
+
+.bg-color-gray-300 {
+  background-color: var(--base-color-gray-300);
+  color: var(--base-color-gray-600);
+  padding: 6rem 2rem;
+  min-height: 80vh;
+}
+
+section {
+  padding: 4rem 2rem;
+}
+.hero,.contato {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
