@@ -6,7 +6,7 @@
 }
 
 .icon-item {
-  display: flex;
+  display: flex;  
   align-items: center; 
   gap: 0.2rem;        
   padding: 4px;
