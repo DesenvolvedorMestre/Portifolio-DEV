@@ -5,21 +5,178 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
     <title>Portifolio DEV</title>
   </head>
   <body>
-    <section class="hero bg-image">
-
-      <h2>Hello World! Meu nome é Matheus Ferreira e sou</h2>
+    <div class="hero bg-image container">
+      <nav>
+        <div class="profile-container">
+          <img src="assets/img.jpg" alt="Imagem do programador" class="profile-img" />
+          <img src="assets/icons/icon_code.svg" alt="icone de coigo" class="profile-icon">
+        </div>
+  
+        <h2 class="subtitle">
+          Hello World! Meu nome é <span class="text-red">Matheus Ferreira</span> e sou
+        </h2>
+        <h1>Desenvolvedor Full Stack</h1>
+        <p class="small-text">
+          Transformo necessidades em aplicações reais, envolventes e funcionais. Desenvolvo sistemas através da <br>
+          minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
+        </p>
+      </nav>
+      <br>
+      <br>  
+      <div class="icons-code">
+        <div class="icon-item">
+          <img src="assets/languages/GitHub.svg" alt="GitHub">
+          <p>GitHub</p>
+        </div>
+        <div class="icon-item">
+          <img src="assets/languages/HTML.svg" alt="HTML">
+          <p>HTML</p>
+        </div>
+        <div class="icon-item">
+          <img src="assets/languages/CSS.svg" alt="CSS">
+          <p>CSS</p>
+        </div>
+        <div class="icon-item">
+          <img src="assets/languages/JavaScript.svg" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="icon-item">
+          <img src="assets/languages/React.svg" alt="React">
+          <p>React</p>
+        </div>
+        <div class="icon-item">
+          <img src="assets/languages/Node.js.svg" alt="Node.js">
+          <p>Node.js</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div> <img src="assets/CaretDoubleDown.svg" alt="Menu para Baixo" class="icon-caret"></div>
+    </div>
+    <section class="projetos bg-color-gray-200">
+      <div class="container">
+        <h2 class="subtitle"><span class="text-red">Meu trabalho</span></h2>
+        <h1>Veja meus Projetos</h1>
+      </div>
+        <div class="container-thumb">
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="thumb thumb-red">
+              <img src="assets/thumbnail/Thumbnail_Project-01.png" alt="Travelgram" />
+            </div>
+            <h3>Travelgram</h3>
+            <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+          </div>
+    
+          <div class="project-card">
+            <div class="thumb thumb-blue">
+              <img src="assets/thumbnail/Thumbnail_Project-02.png" alt="Tech News" />
+            </div>
+            <h3>Tech News</h3>
+            <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
+          </div>
+          <div class="project-card">
+            <div class="thumb thumb-yellow">
+              <img src="assets/thumbnail/Thumbnail_Project-03.png" alt="Tech News" />
+            </div>
+            <h3>Página de receita</h3>
+            <p>Página com o passo a passo de uma receita para cupcakes</p>
+          </div>
+          <div class="project-card">
+            <div class="thumb thumb-yellow">
+              <img src="assets/thumbnail/Thumbnail_Project-04.png" alt="Tech News" />
+            </div>
+            <h3>Zingen</h3>
+            <p>Landing Page completa e responsiva de um aplicativo de Karaokê</p>
+          </div>
+          <div class="project-card">
+            <div class="thumb thumb-green">
+              <img src="assets/thumbnail/Thumbnail_Project-05.png" alt="Tech News" />
+            </div>
+            <h3>Refund</h3>
+            <p>Um sistema para pedido e acompanhamento de reembolso </p>
+          </div>
+          <div class="project-card">
+            <div class="thumb thumb-red">
+              <img src="assets/thumbnail/Thumbnail_Project-06.png" alt="Tech News" />
+            </div>
+            <h3>Página de turismo</h3>
+            <p>Página com as principais informações para quem quer viajar para Busan</p>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <section class="servicos bg-color-gray-200">
+      <header>
+        <div class="container">
+          <h2 class="subtitle"><span class="text-red">Meus serviços</span></h2>
+          <h1>Como posso ajudar o seu negócio</h1>
+        </div>
+          <div class="container-thumb">
+          <div class="project-grid-services">
+            <div class="service-card">
+              <img src="assets/icons/Vector.svg" alt="Computador" class="icon-purple" />
+              <h3>Websites e Aplicativos</h3>
+              <p>Desenvolvimento de interfaces</p>
+            </div>
+        
+            <div class="service-card">
+              <img src="assets/icons/HardDrives.svg" alt="Banco de dados" class="icon-yellow" />
+              <h3>API e banco de dados</h3>
+              <p>Criação de serviços do sistema</p>
+            </div>
+        
+            <div class="service-card">
+              <img src="assets/icons/Infinity.svg" alt="DevOps" class="icon-green" />
+              <h3>DevOps</h3>
+              <p>Gestão e infraestrutura da aplicação</p>
+            </div>
+          </div>
+          </div>  
+      </header>  
     </section>
-  
-    <section class="projetos bg-color-gray-200"></section>
-  
-    <section class="servicos bg-color-gray-300"> </section>
-  
-    <section class="contato bg-image"></section>
-      </body>
+    <section class="contato bg-image">
+      <div class="container">
+        <h2 class="subtitle"><span class="text-purple">Contato</span></h2>
+        <h1>Gostou do meu trabalho?</h1>
+        <p class="small-text">Entre em contato ou acompanhe as minhas redes sociais!</p>
+      </div>
+      
+      <div class="contact-links">
+        <a href="#" class="contact-item">
+          <img src="assets/icons/LinkedinLogo.svg" alt="Linkedin Logo">
+          <p>Linkedin</p>
+          <img src="assets/icons/ArrowUpRight.svg" alt="Seta">
+        </a>
+      
+        <a href="#" class="contact-item">
+          <img src="assets/icons/InstagramLogo.svg" alt="Instagram Logo">
+          <p>Instagram</p>
+          <img src="assets/icons/ArrowUpRight.svg" alt="Seta">
+        </a>
+      
+        <a href="#" class="contact-item">
+          <img src="assets/icons/GithubLogo.svg" alt="GitHub Logo">
+          <p>GitHub</p>
+          <img src="assets/icons/ArrowUpRight.svg" alt="Seta">
+        </a>
+      
+        <a href="mailto:seuemail@example.com" class="contact-item">
+          <img src="assets/icons/EnvelopeSimple.svg" alt="E-mail">
+          <p>E-mail</p>
+          <img src="assets/icons/ArrowUpRight.svg" alt="Seta">
+        </a>
+      </div>
+    </section>
+  </body>
     </html>
